@@ -1,0 +1,6 @@
+flask
+pandas
+numpy
+scikit-learn
+joblib
+prometheus_flask_exporter
