@@ -1,8 +1,8 @@
 build:
-	docker build -t your-docker-image .
+	docker build -t docker-image .
 
 push:
-	docker push your-docker-image
+	docker push docker-image
 
 deploy:
 	kubectl apply -f k8s-deployment.yaml
